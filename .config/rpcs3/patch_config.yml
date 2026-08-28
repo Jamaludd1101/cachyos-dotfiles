@@ -1,0 +1,59 @@
+PPU-4d5c51503a81a327c2a99427390a395b8dcb3767:
+  Skip any videos with X button:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.00:
+          Enabled: true
+  Disable MLAA:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.00:
+          Enabled: true
+  Disable Depth of Field:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.00:
+          Enabled: true
+  Disable Motion Blur:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.00:
+          Enabled: true
+PPU-19724fde16a5b111b7b4d2a065f5dccaf8e01962:
+  Skip any videos with X button:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true
+  Disable MLAA:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true
+  Disable Depth of Field:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true
+  Disable Motion Blur:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true
+  Disable Color Grading:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true
+SPU-530c255936b07b25467a58e24ceff5fd4e2960b7:
+  Disable SPU MLAA:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.00:
+          Enabled: true
+SPU-2239af4827b17317522bd6323c646b45b34ebf14:
+  Disable SPU MLAA:
+    God of War 3 (God of War III):
+      BCUS98111:
+        01.03:
+          Enabled: true

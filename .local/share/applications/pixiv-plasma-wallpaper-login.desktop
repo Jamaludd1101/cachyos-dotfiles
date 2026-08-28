@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Pixiv Plasma Wallpaper Login
+Comment=Start Pixiv OAuth login for the KDE Plasma Pixiv wallpaper plugin
+Exec=/usr/bin/python3 "/home/jamal/.local/share/pixiv-plasma-wallpaper/pixiv_wallpaper_runner.py" oauth-callback --url %u
+Terminal=false
+NoDisplay=true
+MimeType=x-scheme-handler/pixiv-plasma-wallpaper;
+Categories=Network;

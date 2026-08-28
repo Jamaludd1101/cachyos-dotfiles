@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=1.1.1.1
+Exec=waydroid app launch com.cloudflare.onedotonedotonedotone
+Icon=/home/jamal/.local/share/waydroid/data/icons/com.cloudflare.onedotonedotonedotone.png
+Categories=X-WayDroid-App;
+X-Purism-FormFactor=Workstation;Mobile;
+Actions=app-settings;
+
+[Desktop Action app-settings]
+Name=App Settings
+Exec=waydroid app intent android.settings.APPLICATION_DETAILS_SETTINGS package:com.cloudflare.onedotonedotonedotone
+Icon=/home/jamal/.local/share/waydroid/data/icons/com.android.settings.png

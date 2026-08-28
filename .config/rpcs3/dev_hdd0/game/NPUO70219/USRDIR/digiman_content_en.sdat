@@ -1,0 +1,890 @@
+{
+
+	"manual": 
+	{
+
+		"meta" :
+		{
+			"projectCode" : "gow",
+			"languageCode" : "en",
+			"datetime" : "Jul 27, 2012 - 2:39:05 PDT"
+		},
+
+
+		"localization" :
+		{
+			"intro" :
+			{
+				"captions" :
+				[
+					"Press",
+					"To Continue"
+				]
+			},
+			"toc" :
+			{
+				"captions" :
+				[
+					"Contents"
+				]
+			},
+			"nav_bib" :
+			{
+				"standard" :
+				{
+					"captions" :
+					[
+						"Navigation Guide",
+						"Prev/Next Page",
+						"Contents",
+						"Select"
+					]
+				},
+				"toc" :
+				{
+					"captions" :
+					[
+						"Navigate",
+						"Select",
+						"Back"
+					]
+				}
+			},
+			"nav_guide" :
+			{
+				"captions" :
+				[
+					"Navigation Controls",
+					"Navigation Guide",
+					"Scroll Content",
+					"Previous Page",
+					"Next Page",
+					"Table of Contents",
+					"Cancel",
+					"Confirm"
+				]
+			}
+		},
+
+
+
+		"view_data": 
+		{
+
+
+
+		
+			"images" :
+			[
+
+				{
+					"key" : "warning_icon",
+					"image_path" : "warning_icon.png",
+					"cache" : "false"
+				},
+				{
+					"key" : "warning_page_bg",
+					"image_path" : "warning_page_bg.png",
+					"cache" : "true"
+				}
+
+
+
+			],
+
+			"fonts" :
+			[
+				{
+					"key" : "console_font",
+					"font_name" : "PS2 Buttons Normal"
+				},
+				{
+					"key" : "arial_black",
+					"font_name" : "Arial Black"
+				},
+				{
+					"key" : "gotham_medium",
+					"font_name" : "Gotham-Medium"
+				},
+				{
+					"key" : "god_of_war",
+					"font_name" : "GodOfWar"
+				}
+			],
+
+
+			"text_styles" :
+			[
+				{
+					"name" : "page_subheader",
+					"display_name" : "Chapter Subheader",
+					"type" : "block",
+					"font" : "gotham_medium",
+					"font_bold" : "true",
+					"font_color" : "000000",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_normal",
+					"display_name" : "Page Normal",
+					"type" : "block",
+					"font" : "gotham_medium",
+					"font_bold" : "false",
+					"font_color" : "000000",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_bold",
+					"display_name" : "Page Bold",
+					"type" : "block",
+					"font" : "gotham_medium",
+					"font_bold" : "true",
+					"font_color" : "000000",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_bold_legal",
+					"display_name" : "Page Bold Legal",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "true",
+					"font_color" : "ffffff",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_legal",
+					"display_name" : "Legal Normal",
+					"type" : "block",
+					"font" : "arial_black",
+					"font_bold" : "false",
+					"font_color" : "ffffff",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_markup",
+					"display_name" : "Page Markup",
+					"type" : "block",
+					"font" : "gotham_medium",
+					"font_bold" : "true",
+					"font_color" : "000000",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				},
+				{
+					"name" : "page_note",
+					"display_name" : "Page Note",
+					"type" : "block",
+					"font" : "gotham_medium",
+					"font_bold" : "false",
+					"font_italic" : "true",
+					"font_color" : "000000",
+					"font_size" : "32",
+					"font_leading" : "44",
+					"font_tracking" : "0",
+					"space_after" : "48",
+					"console_icons_font_size" : "24"
+				}
+			]
+
+
+
+		},
+
+		
+		"content": 
+		{
+		
+		
+		
+		
+			"special_chapters" :
+			[
+				{
+					"key" : "intro",
+					"header" : "",
+					"type" : "intro",
+					"pages" : 
+					[
+						{
+							"key" : "intro",
+							"type" : "intro",
+							"header" : ""
+						}				
+					]
+				}
+			],
+
+
+
+
+
+
+			"chapters" : 
+			[
+	{
+		"key" : "warning_photosensitivityepilepsyseizures",
+		"header" : "WARNING: PHOTOSENSITIVITY/EPILEPSY/SEIZURES",
+		"menu_title" : "Warning",
+		"type" : "warning",
+		"header_color" : "ec1c24",
+		"header_icon_key" : "warning_icon",
+		"background_key" : "warning",
+		"pages" : 
+		[
+			{
+				"key" : "warning_photosensitivityepilepsyseizures",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "270",
+					"y" : "240"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "636"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "warning_photosensitivityepilepsyseizures",
+						"pageKey" : "warning_photosensitivityepilepsyseizures",
+						"text" : "{{P::style_key:page_legal;&&A very small percentage of individuals may experience epileptic seizures or blackouts when exposed to certain light patterns or flashing lights. Exposure to certain patterns or backgrounds on a television screen or when playing video games may trigger epileptic seizures or blackouts in these individuals. These conditions may trigger previously undetected epileptic symptoms or seizures in persons who have no history of prior seizures or epilepsy. If you, or anyone in your family, has an epileptic condition or has had seizures of any kind, consult your physician before playing. IMMEDIATELY DISCONTINUE use and consult your physician before resuming gameplay if you or your child experience any of the following health problems or symptoms:}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&• dizziness}}{{P::style_key:page_legal;&&• eye or muscle twitches}}{{P::style_key:page_legal;&&• disorientation}}{{P::style_key:page_legal;&&• any involuntary movement}}{{P::style_key:page_legal;&&• altered vision}}{{P::style_key:page_legal;&&• loss of awareness}}{{P::style_key:page_legal;&&• seizures or convulsion}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&RESUME GAMEPLAY ONLY ON APPROVAL OF YOUR PHYSICIAN.}}{{P::style_key:page_legal;&&Use and handling of video games to reduce the likelihood of a seizure}}{{P::style_key:page_legal;&&• Use in a well-lit area and keep as far away as possible from the television screen.}}{{P::style_key:page_legal;&&• Avoid large screen televisions. Use the smallest television screen available.}}{{P::style_key:page_legal;&&• Avoid prolonged use of the PlayStation®3 system. Take a 15-minute break during each hour of play.}}{{P::style_key:page_legal;&&• Avoid playing when you are tired or need sleep.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Stop using the system immediately if you experience any of the following symptoms: lightheadedness, nausea, or a sensation similar to motion sickness; discomfort or pain in the eyes, ears, hands, arms, or any other part of the body.  If the condition persists, consult a doctor.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&NOTICE:}}{{P::style_key:page_legal;&&Use caution when using the DUALSHOCK®3 wireless controller motion sensor function. When using the DUALSHOCK®3 wireless controller motion sensor function, be cautious of the following points. If the controller hits a person or object, this may cause accidental injury or damage. Before using, check that there is plenty of space around you. When using the controller, grip it firmly to make sure it cannot slip out of your hand. If using a controller that is connected to the PS3™ system with a USB cable, make sure there is enough space for the cable so that the cable will not hit a person or object. Also, take care to avoid pulling the cable out of the PS3™ system while using the controller.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&WARNING TO OWNERS OF PROJECTION TELEVISIONS: }}{{P::style_key:page_legal;&&Do not connect your PS3™ system to a projection TV without first consulting the user manual for your projection TV, unless it is of the LCD type. Otherwise, it may permanently damage your TV screen.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold_legal;&&HANDLING YOUR PS3™ FORMAT DISC:}}{{P::style_key:page_legal;&&• Do not bend it, crush it or submerge it in liquids. }}{{P::style_key:page_legal;&&• Do not leave it in direct sunlight or near a radiator or other source of heat. }}{{P::style_key:page_legal;&&• Be sure to take an occasional rest break during extended play. }}{{P::style_key:page_legal;&&• Keep this disc clean. Always hold the disc by the edges and keep it in its protective case when not in use. Clean the disc with a lint-free, soft, dry cloth, wiping in straight lines from center to outer edge. Never use solvents or abrasive cleaners.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_legal;&&Consumer Service/Technical Support Line 1-800-345-7669}}{{P::style_key:page_legal;&&Call this number for technical support, installation or general questions regarding the PS3™ system and its peripherals. Representatives are available Monday – Saturday 6AM – 8PM and Sunday 7AM – 6:30PM Pacific Standard Time.}}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "god_of_war",
+		"header" : "God Of War™",
+		"menu_title" : "God Of War™",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "ps3",
+		"pages" : 
+		[
+			{
+				"key" : "god_of_war",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war",
+						"pageKey" : "god_of_war",
+						"text" : "{{P::style_key:page_subheader;&&MENUS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Access menu screens...START button }}{{ELL::style_key:page_normal;&&Pause Menu/Options Menu...SELECT button }}{{ELL::style_key:page_normal;&&Navigate menu...{l}/{r} }}{{ELL::style_key:page_normal;&&Highlight menu item...left stick/directional buttons }}{{ELL::style_key:page_normal;&&Select menu item...{x} }}{{ELL::style_key:page_normal;&&Previous screen...{t} }}"
+					}
+				]
+			},
+			{
+				"key" : "GENERAL",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war",
+						"pageKey" : "GENERAL",
+						"text" : "{{P::style_key:page_subheader;&&GENERAL}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Walk/Run/Climb...left stick }}{{ELL::style_key:page_normal;&&Evade...right stick }}{{ELL::style_key:page_normal;&&Jump...{x} }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Normal attack...{s} }}{{ELL::style_key:page_normal;&&Heavy attack...{t} }}{{ELL::style_key:page_normal;&&Grab...{c} }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Select Magic (when acquired)...directional button {1}/{2}/{4}/{3} }}{{ELL::style_key:page_normal;&&Use Magic...{,} }}{{ELL::style_key:page_normal;&&Action/Interact/Grapple...{d} }}{{ELL::style_key:page_normal;&&Rage of the Gods (when Rage meter is full)...{.} + {f} }}{{ELL::style_key:page_normal;&&Launch enemy in air...{t} (charge) }}{{ELL::style_key:page_normal;&&Chain grab...{s} (when an enemy is in air) }}"
+					}
+				]
+			},
+			{
+				"key" : "IN AIR BASICS",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war",
+						"pageKey" : "IN AIR BASICS",
+						"text" : "{{P::style_key:page_subheader;&&IN AIR BASICS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Horizontal attack...{s} }}{{ELL::style_key:page_normal;&&Vertical attack...{t} }}{{ELL::style_key:page_normal;&&Air grab...{c} (when Kratos and an enemy are in air) }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Select Magic (when acquired)...directional buttons {1}/{2}/{4}/{3} }}{{ELL::style_key:page_normal;&&Hercules Stomp...{r} }}{{ELL::style_key:page_normal;&&Rope swing (when hanging on a rope)...{c} (hold) }}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "god_of_war_ii",
+		"header" : "God Of War™ II",
+		"menu_title" : "God Of War™ II",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "ps3",
+		"pages" : 
+		[
+			{
+				"key" : "god_of_war_ii",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ii",
+						"pageKey" : "god_of_war_ii",
+						"text" : "{{P::style_key:page_subheader;&&MENUS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Access menu screens...START button }}{{ELL::style_key:page_normal;&&Pause Menu/Options Menu...SELECT button }}{{ELL::style_key:page_normal;&&Navigate through menu...{l}/{r} }}{{ELL::style_key:page_normal;&&Highlight menu item...left stick/directional buttons }}{{ELL::style_key:page_normal;&&Select menu item...{x} }}{{ELL::style_key:page_normal;&&Previous screen...{t} }}"
+					}
+				]
+			},
+			{
+				"key" : "ON GROUND BASICS",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ii",
+						"pageKey" : "ON GROUND BASICS",
+						"text" : "{{P::style_key:page_subheader;&&ON GROUND BASICS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Walk/Run/Climb/Swim...left stick }}{{ELL::style_key:page_normal;&&Evade...right stick }}{{ELL::style_key:page_normal;&&Jump...{x} }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Normal attack...{s} }}{{ELL::style_key:page_normal;&&Heavy attack...{t} }}{{ELL::style_key:page_normal;&&Grab...{c} }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Select Magic (when acquired)...directional button {1}/{2}/{4}/{3} }}{{ELL::style_key:page_normal;&&Use Magic...{,} }}{{ELL::style_key:page_normal;&&Action/Interact/Grapple...{r} }}{{ELL::style_key:page_normal;&&Access menu screens...START button }}{{ELL::style_key:page_normal;&&Pause Game/Options Menu...SELECT button }}"
+					}
+				]
+			},
+			{
+				"key" : "ON GROUND ADVANCED",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ii",
+						"pageKey" : "ON GROUND ADVANCED",
+						"text" : "{{P::style_key:page_subheader;&&ON GROUND ADVANCED}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&(Some of these moves require Kratos to upgrade his blades before they can be used.)}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Launch enemy in air...{t} (charge) }}{{ELL::style_key:page_normal;&&Chain grab...{c} (when an enemy is in air) }}{{ELL::style_key:page_normal;&&Cyclone of Chaos...{l} + {s} }}{{ELL::style_key:page_normal;&&Oceanus of Torrent...{l} + {t} }}{{ELL::style_key:page_normal;&&Rampage of the Furies...{l} + {c} }}"
+					}
+				]
+			},
+			{
+				"key" : "IN AIR BASICS",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ii",
+						"pageKey" : "IN AIR BASICS",
+						"text" : "{{P::style_key:page_subheader;&&IN AIR BASICS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Horizontal attack...{s} }}{{ELL::style_key:page_normal;&&Vertical attack...{t} }}{{ELL::style_key:page_normal;&&Air grab...{c} (when Kratos and an enemy are in air) }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Select Magic (when acquired)...directional buttons {1}/{2}/{4}/{3} }}{{ELL::style_key:page_normal;&&Use item/Magic...{,} }}{{ELL::style_key:page_normal;&&Action/Interact/Grapple...{d} }}"
+					}
+				]
+			},
+			{
+				"key" : "IN AIR ADVANCED",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ii",
+						"pageKey" : "IN AIR ADVANCED",
+						"text" : "{{P::style_key:page_subheader;&&IN AIR ADVANCED}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&(These moves require Kratos to upgrade his blades before they can be used.)}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Cyclone of Chaos (air)...{l} + {s} }}{{ELL::style_key:page_normal;&&Oceanus Torrent (air)...{l} + {t} }}{{ELL::style_key:page_normal;&&Rampage of the Furies (air)...{l} + {c} }}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "god_of_war_iii",
+		"header" : "God Of War™ III",
+		"menu_title" : "God Of War™ III",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "ps3",
+		"pages" : 
+		[
+			{
+				"key" : "god_of_war_iii",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_iii",
+						"pageKey" : "god_of_war_iii",
+						"text" : "{{P::style_key:page_subheader;&&MENUS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Navigate menu/Highlight menu item...left stick/directional buttons {1}/{2} }}{{ELL::style_key:page_normal;&&Adjust menu item...left stick/directional buttons {4}/{3} }}{{ELL::style_key:page_normal;&&Select highlighted menu item...{x} }}{{ELL::style_key:page_normal;&&Previous screen/Return to Main Menu...{c} }}{{ELL::style_key:page_normal;&&Access menu screens...START button }}{{ELL::style_key:page_normal;&&Pause Menu/Options Menu...SELECT button }}{{ELL::style_key:page_normal;&&Cycle menu screens...{l}/{r} }}"
+					}
+				]
+			},
+			{
+				"key" : "GENERAL",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_iii",
+						"pageKey" : "GENERAL",
+						"text" : "{{P::style_key:page_subheader;&&GENERAL}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Walk/Run...left stick }}{{ELL::style_key:page_normal;&&Evade/Target select...right stick }}{{ELL::style_key:page_normal;&&Jump...{x} }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} (hold for Icarus Wings) }}{{ELL::style_key:page_normal;&&Normal Attack...{s} }}{{ELL::style_key:page_normal;&&Heavy attack...{t} }}{{ELL::style_key:page_normal;&&Launch and follow enemy into the air...{t} (hold) }}{{ELL::style_key:page_normal;&&Grab...{c} }}{{ELL::style_key:page_normal;&&Battering ram (when holding certain enemies)...{s} }}{{ELL::style_key:page_normal;&&Block (Parry if timed right)...{l} }}{{ELL::style_key:page_normal;&&Combat Grapple...{l} (hold), {c} }}{{ELL::style_key:page_normal;&&Action/Interact...{r} }}{{ELL::style_key:page_normal;&&Drop (while wall climbing or hanging on a ledge)...{r} }}{{ELL::style_key:page_normal;&&Grapple...{r} to attach, {r} (hold) to swing }}{{ELL::style_key:page_normal;&&Use item...{,} (hold) + {x}/{s}/{t} }}{{ELL::style_key:page_normal;&&Use Magic...{d} }}{{ELL::style_key:page_normal;&&Switch Weapon...directional button {1}/{2}/{4}/{3} }}{{ELL::style_key:page_normal;&&Rage of Sparta...{.} + {f} }}{{ELL::style_key:page_normal;&&Kick objects...{r} (hold), {x} to charge and release }}{{ELL::style_key:page_normal;&&Rotate objects...right stick {4}/{3} + {r} }}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "god_of_war_chains_of_olympus",
+		"header" : "God Of War™ Chains Of Olympus",
+		"menu_title" : "God Of War™ Chains Of Olympus",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "psp",
+		"pages" : 
+		[
+			{
+				"key" : "god_of_war_chains_of_olympus",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_chains_of_olympus",
+						"pageKey" : "god_of_war_chains_of_olympus",
+						"text" : "{{P::style_key:page_subheader;&&MENUS}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Press the directional buttons to highlight an option, then press {x} to confirm. To return to the previous menu screen, press {c}.}}"
+					}
+				]
+			},
+			{
+				"key" : "GENERAL",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_chains_of_olympus",
+						"pageKey" : "GENERAL",
+						"text" : "{{P::style_key:page_subheader;&&GENERAL}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Move...left stick }}{{ELL::style_key:page_normal;&&Jump...{x} }}{{ELL::style_key:page_normal;&&Double jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Grab/Interact/Grapple...{c} }}{{ELL::style_key:page_normal;&&Light attack...{s} }}{{ELL::style_key:page_normal;&&Heavy attack...{t} }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Switch weapon...directional button {2} }}{{ELL::style_key:page_normal;&&Use Magic...{r} }}{{ELL::style_key:page_normal;&&In-game menus...START button }}{{ELL::style_key:page_normal;&&Pause Menu...SELECT button }}{{ELL::style_key:page_normal;&&Evade...right stick/{l} + {r} + left stick }}"
+					}
+				]
+			},
+			{
+				"key" : "IN AIR BASICS",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_chains_of_olympus",
+						"pageKey" : "IN AIR BASICS",
+						"text" : "{{P::style_key:page_subheader;&&IN AIR BASICS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Horizontal attack...{s} }}{{ELL::style_key:page_normal;&&Vertical attack...{t} }}{{ELL::style_key:page_normal;&&Air grab (when Kratos and enemy are in air)...{c} }}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "god_of_war_ghost_of_sparta",
+		"header" : "God Of War™ Ghost Of Sparta",
+		"menu_title" : "God Of War™ Ghost Of Sparta",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "psp",
+		"pages" : 
+		[
+			{
+				"key" : "god_of_war_ghost_of_sparta",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ghost_of_sparta",
+						"pageKey" : "god_of_war_ghost_of_sparta",
+						"text" : "{{P::style_key:page_subheader;&&MENUS}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Press the directional buttons to highlight an option, then press {x} to confirm. To return to the previous menu screen, press {c}.}}"
+					}
+				]
+			},
+			{
+				"key" : "GENERAL",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ghost_of_sparta",
+						"pageKey" : "GENERAL",
+						"text" : "{{P::style_key:page_subheader;&&GENERAL}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Move...left stick }}{{ELL::style_key:page_normal;&&Jump...{x} }}{{ELL::style_key:page_normal;&&Double Jump...{x}, {x} }}{{ELL::style_key:page_normal;&&Grab/Interact/Grapple...{c} }}{{ELL::style_key:page_normal;&&Light Attack...{s} }}{{ELL::style_key:page_normal;&&Heavy Attack...{t} }}{{ELL::style_key:page_normal;&&Block...{l} }}{{ELL::style_key:page_normal;&&Switch Weapon...directional button {2} }}{{ELL::style_key:page_normal;&&Magic Attack...directional button {1}/{4}/{3} }}{{ELL::style_key:page_normal;&&Hyperion Charge...{l} (hold) + {c} }}{{ELL::style_key:page_normal;&&Evade...right stick/{l} + {r} + left stick }}{{ELL::style_key:page_normal;&&Fireblades (once acquired)...{r} (hold) }}{{ELL::style_key:page_normal;&&In-game Menus...START button }}{{ELL::style_key:page_normal;&&Pause Menu...SELECT button }}"
+					}
+				]
+			},
+			{
+				"key" : "IN AIR BASICS",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "god_of_war_ghost_of_sparta",
+						"pageKey" : "IN AIR BASICS",
+						"text" : "{{P::style_key:page_subheader;&&IN AIR BASICS}}{{P::style_key:page_normal;&& }}{{ELL::style_key:page_normal;&&Horizontal Attack...{s} }}{{ELL::style_key:page_normal;&&Vertical Attack...{t} }}{{ELL::style_key:page_normal;&&Air Grab (when Kratos and enemy are airborne)...{c} }}"
+					}
+				]
+			}
+		]
+	},
+	{
+		"key" : "legal_and_warranty",
+		"header" : "LEGAL AND WARRANTY",
+		"menu_title" : "LEGAL AND WARRANTY",
+		"type" : "normal",
+		"header_color" : "ffffff",
+		"background_key" : "ps3",
+		"pages" : 
+		[
+			{
+				"key" : "legal_and_warranty",
+				"type" : "free_form",
+				"origin" :
+				{
+					"x" : "320",
+					"y" : "300"
+				},
+				"mask" :
+				{
+					"x" : "-20",
+					"y" : "-10",
+					"width" : "1340",
+					"height" : "500"
+				},
+				"elements" : 
+				[
+					{
+						"key" : "flow_text",
+						"type" : "flow_text",
+						"x" : "0",
+						"y" : "0",
+						"width" : "1300",
+						"height" : "240",
+						"chapterKey" : "legal_and_warranty",
+						"pageKey" : "legal_and_warranty",
+						"text" : "{{P::style_key:page_bold;&&LEGAL}}{{P::style_key:page_normal;&&©2007, 2010 Sony Computer Entertainment America LLC. God of War is a trademark of Sony Computer Entertainment America LLC. God of War Chains of Olympus and God of War Ghost of Sparta developed by Ready At Dawn Studios, LLC.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&LIMITED WARRANTY}}{{P::style_key:page_normal;&&Sony Computer Entertainment America (SCEA) warrants to the original purchaser of this SCEA product that this software is free from defects in material and workmanship for a period of ninety (90) days from the original date of purchase. SCEA agrees for a period of ninety (90) days either repair or replace, at its option, the SCEA product. You must call 1-800-345-7669 to receive instructions to obtain repair/replacement services.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&This warranty shall not be applicable and shall be void if the defect in the SCEA product has arisen through abuse, unreasonable use, mistreatment or neglect. THIS WARRANTY IS IN LIEU OF ALL OTHER WARRANTIES AND NO OTHER REPRESENTATIONS OR CLAIMS OF ANY NATURE SHALL BE BINDING ON OR OBLIGATE SCEA. ANY IMPLIED WARRANTIES APPLICABLE TO THIS SOFTWARE PRODUCT, INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ARE LIMITED TO THE NINETY (90) DAY PERIOD DESCRIBED ABOVE. IN NO EVENT WILL SCEA BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES RESULTING FROM POSSESSION, USE OR MALFUNCTION OF THE SCEA SOFTWARE PRODUCT.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Some states do not allow limitations as to how long an implied warranty lasts and/or exclusions or limitations of consequential damages, so the above limitations and/or exclusions of liability may not apply to you. This warranty gives you specific legal rights, and you may also have other rights which vary from state to state.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_bold;&&USE OF UNAUTHORIZED PRODUCT:}}{{P::style_key:page_normal;&&The use of software or peripherals not authorized by Sony Computer Entertainment America may damage your system and/or invalidate your warranty. Only official or licensed peripherals should be used in the controller ports or memory card slots.}}{{P::style_key:page_normal;&& }}{{P::style_key:page_normal;&&Unauthorized copying, reproduction, rental, public performance or broadcast of this game is a violation of applicable laws. All rights to make copies of any portion of the game for subsequent redistribution is retained by the copyright holder. Please contact SCEA at 1-800-345-7669, if you are unwilling to accept the terms of this license.}}"
+					}
+				]
+			}
+		]
+	}
+
+			]
+
+
+
+
+		}
+
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

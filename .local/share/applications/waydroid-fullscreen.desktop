@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Waydroid - Layar Penuh
+Comment=Paksa ukuran jendela Waydroid ke 1920x1080
+Exec=bash -c "waydroid prop set persist.waydroid.width 1920 && waydroid prop set persist.waydroid.height 1080 && waydroid session stop && pkexec systemctl restart waydroid-container && (sleep 4 && waydroid shell wm size reset) & notify-send 'Waydroid' 'Berhasil beralih ke Mode 1920x1080!'"
+Icon=view-fullscreen
+Terminal=false
+Categories=Utility;

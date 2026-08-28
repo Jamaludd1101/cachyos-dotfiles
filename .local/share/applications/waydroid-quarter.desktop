@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Waydroid - Seperempat Layar
+Comment=Ubah ukuran jendela Waydroid menjadi 1/4 layar
+Exec=bash -c "waydroid prop set persist.waydroid.width 960 && waydroid prop set persist.waydroid.height 495 && waydroid session stop && pkexec systemctl restart waydroid-container && notify-send 'Waydroid' 'Berhasil beralih ke Mode Seperempat Layar!'"
+Icon=view-restore
+Terminal=false
+Categories=Utility;

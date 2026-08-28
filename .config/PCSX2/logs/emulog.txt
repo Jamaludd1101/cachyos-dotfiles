@@ -1,0 +1,45 @@
+[    0,0537] Loaded translation file for language id-ID
+[    0,0557] PCSX2 v2.6.3
+[    0,0557] Savestate version: 0x9a550000
+[    0,0557] 
+[    0,0557] 
+[    0,0557] Host Machine Init:
+[    0,0558]   Operating System = CachyOS Linux rolling
+[    0,0558]   Available RAM    = 5871 MB (5.73 GB)
+[    0,0558]   Physical RAM     = 13818 MB (13.49 GB)
+[    0,0559] 
+[    0,0559]   Processor        = AMD Ryzen 7 5800H with
+[    0,0559]   Core Count       = 16 cores
+[    0,0559]   Thread Count     = 16 threads
+[    0,0559]   Cluster Count    = 1 clusters
+[    0,0559] CPU Extensions Detected:
+[    0,0559]   AVX AVX2
+[    0,0559] 
+[    0,0559] Allocating host memory for virtual systems...
+[    0,0561] Data Memory                      @ 0x0000559BE0000000 -> 0x0000559BE9F00000 [159mb]
+[    0,0561] Code Memory                      @ 0x0000559BE9F00000 -> 0x0000559BFD000000 [305mb]
+[    0,0561]   EE Main Memory                   @ 0x0000559BE0000000 -> 0x0000559BE8F00000 [143mb]
+[    0,0561]   IOP Main Memory                  @ 0x0000559BE8F00000 -> 0x0000559BE9200000 [3mb]
+[    0,0561]   VU0/1 On-Chip Memory             @ 0x0000559BE9200000 -> 0x0000559BE9300000 [1mb]
+[    0,0561]   VTLB Virtual Map                 @ 0x0000559BE9300000 -> 0x0000559BE9B00000 [8mb]
+[    0,0562]   VTLB Address Map                 @ 0x0000559BE9B00000 -> 0x0000559BE9F00000 [4mb]
+[    0,0562]   R5900 Recompiler Cache           @ 0x0000559BE9F00000 -> 0x0000559BEDF00000 [64mb]
+[    0,0562]   R3000A Recompiler Cache          @ 0x0000559BEDF00000 -> 0x0000559BEFF00000 [32mb]
+[    0,0562]   Micro VU0 Recompiler Cache       @ 0x0000559BF0F00000 -> 0x0000559BF4F00000 [64mb]
+[    0,0562]   Micro VU0 Recompiler Cache       @ 0x0000559BF4F00000 -> 0x0000559BF8F00000 [64mb]
+[    0,0562]   VIF0 Unpack Recompiler Cache     @ 0x0000559BEFF00000 -> 0x0000559BF0700000 [8mb]
+[    0,0562]   VIF1 Unpack Recompiler Cache     @ 0x0000559BF0700000 -> 0x0000559BF0F00000 [8mb]
+[    0,0562]   VIF Unpack Recompiler Cache      @ 0x0000559BF8F00000 -> 0x0000559BF9000000 [1mb]
+[    0,0562]   GS Software Renderer             @ 0x0000559BF9000000 -> 0x0000559BFD000000 [64mb]
+[    0,0575] Fastmem area: 0x7fead0000000 - 0x7febcfffffff
+[    0,0577] Generating SSE-optimized unpacking functions for VIF interpreters...
+[    0,0579] Unpack function generation complete.  Generated function statistics:
+[    0,0579]   Reserved buffer    : 1048576 bytes @ 0x0000559BF8F00000
+[    0,0579]   x86 code generated : 7344 bytes
+[    0,0579] 
+[    0,0584] SDLInputSource: Using Controller DB from resources.
+[    0,1225] Scanning /home/jamal/Games/ROMs/PS2 (recursively)
+[    0,1226] Scanning /home/jamal/Games/ROMs/ps2 (recursively)
+[    0,1231] We're a tagged commit, but not running from an AppImage. Disabling automatic updater.
+[    0,3275] SDLInputSource: 725 gamepad mappings are loaded.
+[    4,3999] Releasing host memory for virtual systems...

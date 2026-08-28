@@ -1,0 +1,12 @@
+# Mengabaikan file log dan cache yang mungkin terbawa
+*.log
+*.cache
+*cache*/
+.DS_Store
+
+# Memastikan save data emulator tidak masuk jika ada kesalahan rsync
+.config/rpcs3/dev_hdd0/savedata/
+.config/rpcs3/dev_hdd0/home/
+.config/PCSX2/memcards/
+.config/PCSX2/sstates/
+
